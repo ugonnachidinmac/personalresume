@@ -3,7 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
-body {
+/* body {
   width: 100%;
   min-height: 998px;
   background: url("./assets/backgroundimg.png") no-repeat center / 388.05px
@@ -11,7 +11,17 @@ body {
   background-repeat: no-repeat;
   background-position: 105% 0%;
   background-size: 100%;
+} */
+
+body {
+  width: 100%;
+  min-height: 998px;
+  background: url("./assets/backgroundimg.png") no-repeat center;
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
 }
+
+
 
 @media screen and (max-width: 990px) {
   .nav .navItems {
@@ -22,6 +32,7 @@ body {
   }
   .portfolio {
     display: none;
+    padding: unset;
   }
   .container {
     display: flex;
