@@ -1,0 +1,156 @@
+.nav {
+  width: 100%;
+  min-height: 80px;
+  z-index: 5;
+  .navUl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .logo {
+    max-width: 96px;
+    min-height: 46px;
+  }
+  ul{
+    list-style: none;
+  }
+  .navItems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    min-height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+  .portfolio {
+    max-width: 188px;
+    min-height: 52px;
+    background: #000000;
+    padding: 11.5px 34.5px 13.5px 30.5px;
+    a {
+      width: 100%;
+      min-height: 27px;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+      text-align: left;
+      color: #FFFEFD;
+    }
+  }
+
+  .menu{
+    display: none;
+}
+}
+.portfolio1 {
+  a {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #000000;
+    line-height: 27px;
+    color: #FFFEFD;
+  }
+}
+// hand Burger starts here
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position dropdown directly below the hamburger */
+    left: 50%; /* Start positioning from the horizontal center */
+    transform: translateX(-50%); /* Center the dropdown relative to the hamburger */
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 7.3px 0px;
+    text-decoration: none;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: center;
+  }
+  .dropdown-content div a{
+    color: rgb(251, 243, 243);
+    padding: 7.3px 0px;
+    text-decoration: none;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+  }
+  /* ENDS */
+
+.menu img{
+    background-color: black;
+}
+
+
+// @media screen and (max-width: 990px) {
+
+//     .nav .navItems{
+//         display: none;
+//     }
+  
+//    .nav .menu {
+//       display: flex; 
+//     }
+//     .portfolio{
+//         display: none;
+//     }
+//   }

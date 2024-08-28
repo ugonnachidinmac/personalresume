@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 998px;
+  background: url("./assets/backgroundimg.png") no-repeat center / 388.05px
+    368.16px;
+  background-repeat: no-repeat;
+  background-position: 105% 0%;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .nav .navItems {
+    display: none;
+  }
+  .nav .menu {
+    display: flex;
+  }
+  .portfolio {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    gap: 0px;
+  }
+  .leftBox {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .rightBox {
+    margin-top: 0px;
+  }
+  .serviceDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .firstImgRow, .secondImgRow {
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+}

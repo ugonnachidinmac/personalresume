@@ -1,0 +1,47 @@
+@import '../SCSS/_includes.scss';
+@import '../SCSS/varables';
+
+.container3 {
+  width: 100%;
+}
+.service {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  h3 {
+    @include h3s65();
+  }
+  p {
+    @include pUnderH3();
+  }
+}
+.serviceDetails {
+  width: 100%;
+  display: flex;
+  padding-left: 160px;
+  padding-right: 180px;
+  margin-top: 120px;
+  gap: 100px;
+}
+.service1 {
+  max-width: 300px;
+}
+.service1 h5 {
+  font-family:  $fontFamily;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.service1 p {
+  max-width: 357px;
+  min-height: 152px;
+  @include ps20();
+  text-align: justify;
+}
+

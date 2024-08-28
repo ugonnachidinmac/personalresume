@@ -1,0 +1,50 @@
+@import '../SCSS/_includes.scss';
+
+
+.container2 {
+  width: 100%;
+}
+
+.about2 {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.man2 {
+  background-image: url("../assets/man2background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1050px;
+  margin-top: -95px;
+  .zigzad2 {
+    position: absolute; /* Position this image behind the second one */
+     top: 150;
+    width: 100%;
+    z-index: 1; /* Lower z-index to place it behind */
+    padding-top: 350px;
+  }
+  
+  .man2img {
+    position: relative;
+    width: 456px;
+    height: 750px;
+    z-index: 2; /* Higher z-index to ensure this image is on top */
+  }
+}
+.about2 {
+  h3 {
+    @include h3s65();
+  }
+  p {
+    @include pUnderH3();
+  }
+}
+
+
